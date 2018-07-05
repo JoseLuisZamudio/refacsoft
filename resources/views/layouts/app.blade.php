@@ -97,7 +97,7 @@
       <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
       <!-- MDB core JavaScript -->
       <script type="text/javascript" src="{{ asset('js/mdb.min.js') }}"></script>
-    @show
+    {{-- @show --}}
     @yield('extra-script')
 
 </body>
