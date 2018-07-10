@@ -34,7 +34,6 @@
   </style>
 @endsection
 
-
 @section('content')
   <!-- Full Page Intro -->
   <div class="view full-page-intro" style="background-image: url('{{asset('img/FondoPortada2.png')}}'); background-repeat: no-repeat; background-size: cover;">
@@ -49,22 +48,20 @@
         <div class="row wow fadeIn">
 
           <!--Grid column-->
-          <div class="col-md-6 mb-4 white-text text-center text-md-left">
+          <div class="col-md-6 mb-4 text-center text-md-left">
             <img src="{{asset('img/logo2.png')}}" class="img-fluid">
-            {{-- <h1 class="display-4 font-weight-bold">Learn Bootstrap 4 with MDB</h1> --}}
 
             <hr class="hr-light">
 
             <p>
-              <strong>Best & free guide of responsive web design</strong>
+              <strong>INTELIGENCIA, VISIÓN, PRESICIÓN</strong>
             </p>
 
             <p class="mb-4 d-none d-md-block">
-              <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written versions
-                available. Create your own, stunning website.</strong>
+              <strong>Encuentra la pieza que le falta a tu automóvil eléctrico a un precio justo y en la puerta de tu casa.</strong>
             </p>
 
-            <a target="_blank" href="https://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-indigo btn-lg">Start free tutorial
+            <a href="{{ route('register') }}" class="btn btn-indigo btn-lg">¡Pruebalo ahora!
               <i class="fa fa-graduation-cap ml-2"></i>
             </a>
 
