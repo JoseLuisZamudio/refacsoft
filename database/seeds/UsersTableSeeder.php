@@ -17,7 +17,7 @@ class UsersTableSeeder extends Seeder
 
               [
                   'name' => 'Felipe Antonio Ramierez',
-                  'email' => 'mexquimicos@upq.mx',
+                  'email' => 'admin@refacsoft.mx',
                   'password' => Hash::make('123456'),
                   'remember_token' => null,
                   'created_at' => date('Y-m-d H:i:s'),
