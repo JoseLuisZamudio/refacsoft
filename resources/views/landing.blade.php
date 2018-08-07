@@ -57,7 +57,7 @@ header,
               Conocenos </h2>
               <div class="row">
                 <div class="col-md-2">
-                  <img src="{{asset('img/Diana.png')}}" class="rounded-circle img-fluid">
+                  <img src="{{asset('img/Diana.jpeg')}}" class="rounded-circle img-fluid">
                 </div>
                 <div class="col-md-10 font-weight-bold text-left align-middle">
                   <h3 class="text-white text-capitalize">Garcia Sanchez Diana Laura</h3>
@@ -93,7 +93,7 @@ header,
               <br>
               <div class="row">
                 <div class="col-md-2">
-                  <img src="{{asset('img/Irving.png')}}" class="rounded-circle img-fluid">
+                  <img src="{{asset('img/Irving.jpeg')}}" class="rounded-circle img-fluid">
                 </div>
                 <div class="col-md-10 font-weight-bold text-left align-middle">
                   <h3 class="text-white">Vazquez Barron Irving Ernesto</h3>
@@ -102,7 +102,7 @@ header,
               <br>
               <div class="row">
                 <div class="col-md-2">
-                  <img src="{{asset('img/Zamudio.png')}}" class="rounded-circle img-fluid">
+                  <img src="{{asset('img/Zamudio.jpeg')}}" class="rounded-circle img-fluid">
                 </div>
                 <div class="col-md-10 font-weight-bold text-left align-middle">
                   <h3 class="text-white">Zamudio Rivera Jose Luis </h3>
@@ -154,9 +154,9 @@ header,
               <!--/Grid column-->
               <!--Grid column-->
               <div class="col-lg-6 col-md-12">
-                <p class="h5 text-center mb-4">Watch our "5 min Quick Start" tutorial</p>
+                <p class="h5 text-center mb-4">Mira nuestro comercial</p>
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
+                  <iframe class="embed-responsive-item" src="{{asset('img/refacsoft.mp4')}}" allowfullscreen></iframe>
                 </div>
               </div>
               <!--/Grid column-->
@@ -174,7 +174,7 @@ header,
               <!--Grid column-->
               <div class="col-lg-6 col-md-12">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
+                  <img class="embed-responsive-item" src="{{asset('img/equipo.jpeg')}}" allowfullscreen></img>
                 </div>
               </div>
               <!--/Grid column-->
