@@ -89,7 +89,8 @@ body {
         <div class="col-md-8">
           <main class="text-center">
             <div class="text-center text-md-left">
-              <form action="#" method="post" nctype="multipart/form-data">
+              <form action="{{ route('piece.index') }}" method="post" enctype="multipart/form-data">
+                {!! csrf_field() !!}
                 <button type="button" class="btn btn-primary btn-block mb-3" onclick="document.getElementById('inputFile').click()">Agregar Imagen</button>
                 <button class="btn btn-success btn-block mb-2" type="submit" name="button">Analizar</button>
                 <div class="form-group inputDnD">

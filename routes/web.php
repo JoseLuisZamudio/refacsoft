@@ -24,7 +24,7 @@ Route::resources([
 ]);
 
 Route::resources([
-  'productos' => 'productoController'
+  'productos' => 'ProductoController'
 ]);
 
 Route::post('/productos/{id}/update','productoController@update')->name('update');
